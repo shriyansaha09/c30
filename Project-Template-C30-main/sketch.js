@@ -95,7 +95,7 @@ function draw() {
 }
 
  function handleButtonPress() {
-   jointLink=dettach();
+   jointLink.dettach();
   setTimeout(() => {
     bridge.break();
   }, 1500); 
